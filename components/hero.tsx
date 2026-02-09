@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 export function Hero() {
   return (
-    <section className="relative min-h-screen w-full overflow-hidden md:pt-20">
+    <section className="relative md:min-h-screen w-full overflow-hidden md:pt-20">
       {/* Background gradient and bars - Commented out */}
       {/* <div className="absolute  w-[1270px] h-[1039px] -top-[70px] right-[85px] left-[85px] -bottom-[100] rectangle px-[31.8] flex justify-center items-start ">
         <div className="absolute left-[26.5px]  w-[546px] h-[515px] top-[180px] right-[697px] bottom-[344px]  opacity-50 bg-[radial-gradient(50%_50%_at_50%_50%,#4A5CFF_0%,rgba(74,92,255,0)_100%)] blur-[28.863636016845703px]" />

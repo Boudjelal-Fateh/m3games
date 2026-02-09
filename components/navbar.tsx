@@ -62,7 +62,7 @@ export function Navbar() {
         />
       )}
 
-      <nav className="sticky top-0 z-50 w-full border-b border-[#ffffff]/6 px-4 lg:px-[100px] bg-black py-6 xl:px-[330px]">
+      <nav className="sticky top-0 z-50 w-full border-b border-[#ffffff]/6   px-[42px]  bg-[linear-gradient(94deg,rgba(17,18,20,0.30)_4.87%,rgba(12,13,15,0.36)_75.88%)] py-6">
         <div className="">
           <div className="flex self-stretch items-center justify-between">
             {/* Logo */}
