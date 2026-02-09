@@ -1,9 +1,12 @@
+import { Hero } from "@/components/hero";
+import { Navbar } from "@/components/navbar";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center   font-onest font-black bg-zinc-50  dark:bg-black">
-      <h1> Text test</h1>
-    </div>
+    <>
+      <Navbar />
+      <Hero />
+    </>
   );
 }
