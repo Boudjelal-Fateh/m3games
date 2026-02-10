@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export function AiSection() {
   return (
-    <section className="relative w-full overflow-x-hidden mx-auto overflow-y-hidden xl:max-w-[1240px]  bg-black px-4 py-20 sm:px-6 lg:px-8 xl:px-[100px] lg:py-[140px] ">
+    <section className="relative w-full overflow-x-hidden    mx-auto overflow-y-hidden xl:max-w-[1240px]  bg-black px-4 py-20 sm:px-6 lg:px-8 xl:px-[100px] lg:py-[140px] ">
       {/* Header */}
       <div className="mb-12 sm:mb-16 text-center flex flex-col items-center justify-center md:mb-[60px]">
         <div className="mb-4 flex items-center justify-center gap-2">
@@ -26,7 +26,7 @@ export function AiSection() {
       {/* Content Grid */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-start w-full">
         {/* Left - Image */}
-        <div className="relative w-full h-[280px] sm:h-[400px] lg:h-[568px] rounded-[20px] overflow-hidden">
+        <div className="relative  w-full h-[280px] sm:h-[400px] lg:h-[568px] rounded-[20px] overflow-hidden">
           <Image
             src="/background.png"
             alt="AI Agents"

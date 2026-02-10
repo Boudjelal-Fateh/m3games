@@ -11,7 +11,7 @@ export function Expertise() {
   ];
 
   return (
-    <section className="relative w-full overflow-x-hidden bg-black px-4 py-20 sm:px-6 lg:px-8 xl:px-[140px]">
+    <section className="relative w-full  overflow-x-hidden bg-black px-4 py-20 sm:px-6 lg:px-8 xl:px-[140px]">
       {/* Header */}
       <div className="mb-12 sm:mb-16 text-center flex flex-col items-center justify-center md:mb-[60px]">
         <div className="mb-4 flex items-center justify-center gap-2 mb-[22px]">

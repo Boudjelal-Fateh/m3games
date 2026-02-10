@@ -30,9 +30,9 @@ export function GamePlatform() {
   ];
 
   return (
-    <section className="relative w-full overflow-x-hidden bg-black px-4 py-20 sm:px-6 lg:px-8   xl:py-[140px] xl:px-[100px]">
+    <section className="relative w-full  overflow-x-hidden bg-black px-4 py-20 sm:px-6 lg:px-8   xl:py-[140px] xl:px-[100px]">
       {/* Header */}
-      <div className="mb-12 sm:mb-16 text-center flex flex-col items-center justify-center max-w-[594px] mx-auto md:mb-[60px]">
+      <div className="mb-12 sm:mb-16 text-center   flex flex-col items-center justify-center max-w-[594px] mx-auto md:mb-[60px]">
         <div className="mb-4 flex items-center justify-center gap-[5px] ">
           <Image
             src={"/lock.svg"}
@@ -57,7 +57,7 @@ export function GamePlatform() {
       </div>
 
       {/* Features Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 w-full max-w-[1100px] mx-auto px-4 md:px-0">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 w-full  max-w-[1100px] mx-auto px-4 md:px-0">
         {features.map((feature, index) => (
           <div
             key={index}
