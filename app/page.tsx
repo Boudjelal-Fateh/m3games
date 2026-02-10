@@ -5,6 +5,7 @@ import { Productivity } from "@/components/productivity";
 import { Expertise } from "@/components/Expertise";
 import { GamePlatform } from "@/components/GamePlatform";
 import { AiSection } from "@/components/AiSection";
+import { AiTransform } from "@/components/AiTransform";
 
 import Image from "next/image";
 
@@ -18,6 +19,7 @@ export default function Home() {
       <Expertise />
       <GamePlatform />
       <AiSection />
+      <AiTransform />
     </main>
   );
 }
