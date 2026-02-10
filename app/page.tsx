@@ -4,6 +4,7 @@ import { Navbar } from "@/components/navbar";
 import { Productivity } from "@/components/productivity";
 import { Expertise } from "@/components/Expertise";
 import { GamePlatform } from "@/components/GamePlatform";
+import { AiSection } from "@/components/AiSection";
 
 import Image from "next/image";
 
@@ -16,6 +17,7 @@ export default function Home() {
       <About />
       <Expertise />
       <GamePlatform />
+      <AiSection />
     </main>
   );
 }
